@@ -1,0 +1,24 @@
+print("Enter Marks Obtained in 5 Subjects")
+SubjectOne = int(input())
+SubjectTwo = int(input())
+SubjectThree = int(input())
+SubjectFour = int(input())
+SubjectFive = int(input())
+
+total = SubjectOne+SubjectTwo+SubjectThree+SubjectFour+SubjectFive
+avg = total/5
+
+if avg>=90 and avg<=100:
+    print("Your Grade is A+")
+elif avg>=80 and avg<89:
+    print("Your Grade is A")
+elif avg>=70 and avg<79:
+    print("Your Grade is B")
+elif avg>=60 and avg<69:
+    print("Your Grade is C")
+elif avg>=50 and avg<59:
+    print("Your Grade is D")
+elif avg>=0 and avg<51:
+    print("Your Grade is fail")
+else:
+    print("Invalid Input!")
